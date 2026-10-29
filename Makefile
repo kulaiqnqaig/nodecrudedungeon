@@ -1,0 +1,12 @@
+FROM alpine:3.18
+CMD ["echo", "ready"]
+{
+  "app": {
+    "name": "demo",
+    "debug": false
+  }
+}
+module.exports = {
+  semi: false,
+  singleQuote: true
+}
